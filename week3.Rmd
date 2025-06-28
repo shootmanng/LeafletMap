@@ -1,0 +1,21 @@
+---
+title: "Week 3"
+author: "Scott Hootman-Ng"
+date: "2025-06-28"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(plotly)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot_ly(x=mtcars$mpg, y=mtcars$hp,type='scatter',mode='markers')
+```
+
+## Thank You!
+
+Thank you for reviewing!
