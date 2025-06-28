@@ -1,0 +1,16 @@
+---
+title: "Leaflet"
+author: "Scott Hootman-Ng"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Saturday, June 28th, 2025
+
+```{r}
+library(leaflet)
+leaflet() %>% addTiles() %>% addMarkers(lng = -21.8275, lat = 64.1355, popup = "Reykjavík, Iceland")
+```
